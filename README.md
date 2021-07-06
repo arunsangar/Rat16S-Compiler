@@ -1,5 +1,5 @@
 # Rat16S Compiler
-**CPSC 323 - Compilers and Languages**
+**CPSC 323 - Compilers and Languages**\
 **Projects 1, 2 and 3**
 
 ### **Problem description:**
