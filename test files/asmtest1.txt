@@ -1,0 +1,27 @@
+$$
+	integer x, y, z;
+	boolean a;
+$$
+	x := 10;
+	y := 20;
+	z := 30;
+	a := true;
+
+	if(x > y) x := 15;
+	else y:= 15;
+	endif
+	
+	while(a)
+	{
+		x := x + 1;
+		if(x = 20) a := false;
+		endif
+	}
+	
+	if(x = 20)
+	{
+		x := x * (z / y);
+	}	
+	endif
+$$
+

@@ -1,0 +1,27 @@
+$$
+	integer a, b, c, d;
+	boolean temp_a, temp_b;
+$$
+	a := 10 * 2;
+	b := a / 5;
+	c := (b + 6) * 5;
+	d := c - (a / b);
+
+	if(a + b + c => d) temp_a := true;
+	else temp_a := false;
+	endif
+	
+	if(temp_a) temp_b := false;
+	else temp_b := true;
+	endif
+
+	while(temp_b)
+	{
+		d := d + 1;
+		if(d = 100) temp_b := false;
+		endif
+	}
+$$
+
+
+	
